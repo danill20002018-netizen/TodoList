@@ -3,12 +3,12 @@ import { ConfigContext, ExpoConfig } from "expo/config";
 // EAS налаштування (отримайте з вашого app.json або після eas project:init)
 const EAS_PROJECT_ID = "dbe6a6c0-2359-431e-803b-ebadd1c19eed"; // Наприклад, "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 const PROJECT_SLUG = "todo-native";
-const OWNER = "cofosisteam"; // Ваш логін на expo.dev
+const OWNER = "cofosis-team"; // Ваш логін на expo.dev
 
 // Базова конфігурація Production
 const APP_NAME = "Todo App";
-const BUNDLE_IDENTIFIER = `com.${OWNER}.rntodolist`;
-const PACKAGE_NAME = `com.${OWNER}.rntodolist`;
+const BUNDLE_IDENTIFIER = `com.cofosisteam.rntodolist`;
+const PACKAGE_NAME = `com.cofosisteam.rntodolist`;
 const SCHEME = "todonative";
 
 // Шляхи до базових іконок
